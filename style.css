@@ -1,0 +1,78 @@
+header {
+    background-color: #222b69;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+}
+
+#logo{
+    background-color: #15173D;
+    padding: 10px 10px;
+    margin-left: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+h1 {
+    font-family: "Cherry Bomb One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 20px;
+    color: #fff;
+}
+
+nav{
+    margin-left: auto;
+}
+
+.header{
+    list-style-type: none;
+    display: inline-block;
+    background-color: #15173D;
+    padding: 15px 20px;
+    text-align: center;
+    font-family: sans-serif;
+    /* font-family: "Cherry Bomb One", system-ui;
+    font-weight: 400;
+    font-style: normal; */
+}
+
+.header:hover{
+    color: #000;
+    background-color: #E491C9;
+    cursor: pointer;
+}
+
+a.nav{
+    color: #fff;
+}
+
+a.nav:link {
+    text-decoration: none;
+}
+
+a.nav:visited {
+    text-decoration: none;
+}
+
+/* a.nav:hover {
+    color: #000;
+} */
+
+a.nav:active {
+    color: #FF5DA2;
+}
+
+#acceso {
+    background-color: #222b69;
+    padding: none;
+}
+/* a.login:hover {
+    color: #FF5DA2;
+} */
+
+#contacto {
+    width: 15px;
+    height: 15px;
+}
