@@ -76,3 +76,51 @@ a.nav:active {
     width: 15px;
     height: 15px;
 }
+
+/* AQUI TERMINA EL HEADER*/
+
+footer{
+    background-color: #15173D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 25px;
+}
+#logopie{
+    
+    width: 100x;
+    height: 100px;
+}
+
+.imapie{
+    width: 50px;
+    height: 50px;
+}
+#logito{
+    /* position: relative;
+    right: 150px; */
+    margin: 0px;
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    font-family: "Cherry Bomb One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#pie{
+    font-family: sans-serif;
+    color: #fff;
+    width: 500px;
+}
+.imapie{
+    padding: 10px 10px;
+}
+#seguir{
+    font-family: sans-serif;
+    color: #fff;
+}
+#s{
+    margin: 0px;
+}
+/* AQUI TERMINA EL FOOTER */
