@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 header {
     background-color: #222b69;
     display: flex;
@@ -10,8 +14,8 @@ header {
     background-color: #15173D;
     padding: 10px 10px;
     margin-left: 10px;
-    width: 25px;
-    height: 25px;
+    width: 50px;
+    height: 50px;
 }
 
 h1 {
@@ -126,18 +130,25 @@ footer{
 /* AQUI TERMINA EL FOOTER */
 
 #presentacion{
-   
-    padding: 30px 30px;
-    display: flex;
+    margin: 10px;
+    height: 500px;
+    background-image: url(https://www.shutterstock.com/image-vector/vector-illustration-women-swimming-competition-600nw-2620202529.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding: 0px;
+    /* display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; */
 }
 #acerca{
-    padding: 30px 45px;
-    background-color: #EBF4DD;
-    width: 800px;
+    padding: 30px 45px; 
+    background-color: rgba(75, 0, 130, 0.3);
+    height: 500px;
+    max-width: 755px;
 }
 .pa{
+    text-align: justify;
     font-family: sans-serif;
     font-size: 20px;
 }
@@ -171,4 +182,51 @@ footer{
 #reg:hover{
     background-color: #000;
     color: #99DDCC;
+}
+
+#pres{
+    height: 500px;
+}
+
+/* AQUI TERMINA LA PRIMER SECCION DEL INICIO */
+
+div#train{
+    margin: 10px;
+    background-image: url(https://img.freepik.com/vector-gratis/piscina-deportiva-vista-superior-agua-rasgada-azul_107791-2385.jpg?semt=ais_user_personalization&w=740&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 725px;
+    display: flex;
+    align-items: center;
+}
+
+.mensaje{
+        text-align: center;
+
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 400px;
+    
+}
+.ir{
+    background-color: #B0E0E6;
+    border-radius: 7px;
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+}
+/* .ir:hover{
+    background-color: #000;
+     cursor: pointer;
+} */
+.re{
+    font-family: sans-serif;
+    font-size: 22px;
+}
+.h3{
+    text-decoration: solid;
+    font-family: sans-serif;
+    font-size: 30px;
 }
