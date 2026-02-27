@@ -160,7 +160,7 @@ footer{
 #reg{
     font-family: sans-serif;
     font-size: 15px;
-    background-color: #99DDCC;
+    background-color: #AFEEEE;
     padding: 10px;
     border-radius: 5px;
     border: none;
@@ -176,12 +176,12 @@ footer{
     cursor: pointer;
 }
 #log:hover{
-    background-color: #000;
-    color: #fff;
+    background-color: #a8a8a8;
+    cursor: pointer;
 }
 #reg:hover{
-    background-color: #000;
-    color: #99DDCC;
+    background-color: #38c0c0;
+    cursor: pointer;
 }
 
 #pres{
@@ -196,35 +196,51 @@ div#train{
     background-size: cover;
     background-repeat: no-repeat;
     height: 725px;
+     /* display: flex;
+    align-items: center;  */
+}
+#content{
     display: flex;
-    align-items: center;
 }
 
-.mensaje{
-        text-align: center;
 
+#sing{
+    margin: 0px;
+    padding: 55px;
+    /* -webkit-text-stroke: 2px #fff; */
+    text-decoration: solid;
+    color: #8B0000;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 55px;
+}
+.mensaje{
+    text-align: center;
     margin: auto;
     padding: 20px;
-    background-color: #ffffff;
-    border-radius: 10px;
+    background-color: #fff;
+    border-radius: 20px;
     width: 400px;
     
 }
 .ir{
-    background-color: #B0E0E6;
+    background-color: #E6E6FA;
     border-radius: 7px;
     padding: 10px;
     border: none;
     font-size: 20px;
 }
-/* .ir:hover{
-    background-color: #000;
-     cursor: pointer;
-} */
+
+.ir:hover{
+    background-color: #b1b1ef;
+    cursor: pointer;
+}
+
 .re{
     font-family: sans-serif;
-    font-size: 22px;
+    font-size: 18px;
 }
+
 .h3{
     text-decoration: solid;
     font-family: sans-serif;
