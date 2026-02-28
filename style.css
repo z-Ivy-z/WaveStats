@@ -283,3 +283,153 @@ div#train{
     cursor: pointer;
 }
 /* AQUI TERMINA LOS TORNEOS */
+
+
+
+/* ACADEMIA
+AQUI EMPIEZA UNA NUEVA PAGINA
+AQUI EMPIEZA ACADEMIA */
+
+
+#welcome{
+    background-color: #15173D;
+    margin: 20px 54px 20px 54px;
+    padding: 30px;
+}
+#wel{
+    color: #fff;
+    margin: 0px 0px 40px 0px;
+    font-size: 80px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+#come{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 25px;
+    padding: 0px 50px;
+    text-align: justify;
+}
+.nivel{
+    align-items: center;
+    margin: 20px 54px 20px 54px;
+    padding: 30px;
+}
+
+
+.contain-card{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card{
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 40px;
+    width: 400px;
+    height: 400px;
+}
+.topo{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+}
+.bottom{
+    text-align: justify;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.top-bottom{
+    margin: 0px 0px 25px 0px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.top{
+    color: #15173D;
+    margin: 0px 0px 40px 0px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+#extras{
+    background-color: #FFFFE0;
+}
+#avanzado{
+    background-color: #E6E6FA;
+}
+#intermedio{
+    background-color: #E0FFFF;
+}
+#principiante{
+    background-color: #eef6c6;
+}
+.in{
+    font-family: sans-serif;
+    color: #15173D;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 2px #15173D solid;
+    font-size: 20px;
+}
+.in:hover{
+    color: #E491C9;
+    border: 2px #E491C9 solid;
+}
+.in:focus{
+    color: #9c106d;
+    border: 2px #9c106d solid;
+}
+
+.co{
+    font-family: sans-serif;
+    background-color: #15173D;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 2px #15173D solid;
+    font-size: 20px;
+}
+
+.co:hover{
+    background-color: #E491C9;
+    border: 2px #E491C9 solid;
+}
+.co:active{
+    background-color: #9c106d;
+    border: 2px #9c106d solid;
+}
+
+.pri{
+    border:5px #a0b245 solid;
+}
+.int{
+    border:5px #36e1e1 solid;
+}
+.ava{
+    border:5px #9393ef solid;
+}
+.ext{
+    border:5px #f4f478 solid;
+}
+h4.pri{
+    border: none;
+    color: #45510a;
+}
+h4.int{
+    border: none;
+    color:  #0b5b5b;
+}
+h4.ava{
+    border: none;
+    color: #262661;
+}
+h4.ext{
+    border: none;
+    color: #3e4614;
+}
