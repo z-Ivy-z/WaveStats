@@ -629,6 +629,7 @@ nav.leyendo a{
 }
 .leyendo a:hover{
     color: #b1b1ef;
+    cursor: pointer;
 }
 .leyendo a:active{
     color: #9393ef;
@@ -644,9 +645,19 @@ nav.leyendo a{
     margin: 15px 10px;
 }
 
+.leer button:hover{
+    cursor: pointer;
+    background-color: #129bad;
+}
+
 #ir_modulo{
     background-color: #222b69;
     color: #fff;
+}
+
+#ir_modulo:hover{
+    background-color: #E491C9;
+    cursor: pointer;
 }
 
 .leer{
@@ -738,6 +749,11 @@ nav.leyendo a{
     font-family: sans-serif;
     font-size: 20px;
 }
+.recursos a{
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
 
 /* ACOMODO SECCION NAV Y LECTURA */
 .contenido-la-lectura{
@@ -745,4 +761,39 @@ nav.leyendo a{
     align-items: center;
     justify-content: space-between;
     margin: 0px 54px 20px 54px;
+}
+/* AQUICOMIENXA LA ESTILIZACION DE LOS BOTONES DEL FORMULARIO DE ENTREGA */
+input[type="file"]{
+    color: #1f7d7d;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+input[type="file"]::file-selector-button {
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    background-color: #AFEEEE;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+input[type="file"]::file-selector-button:hover {
+    color: #fff;
+    background-color: #0b4242;
+    cursor: pointer;
+}
+.recursos button{
+    background-color: #15173D;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 15px;
+    border-radius: 15px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.recursos textarea{
+    border-radius: 15px;
+    border: 2px #222b69 solid;
 }
