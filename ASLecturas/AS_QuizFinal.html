@@ -62,69 +62,59 @@
 
     <h2>📝 Quiz Final: Desafío AquaStart Nivel 1</h2>
 
-<form>
+<form id="quizForm">
 
-    <!-- PREGUNTA 1 -->
     <h4>1️⃣ ¿Cuál es el objetivo principal de la adaptación al agua?</h4>
-    <label><input type="radio" name="p1"> Mejorar velocidad</label><br>
-    <label><input type="radio" name="p1"> Generar confianza y control corporal</label><br>
-    <label><input type="radio" name="p1"> Practicar clavados</label><br><br>
+    <label><input type="radio" name="p1" value="0" required> Mejorar velocidad</label><br>
+    <label><input type="radio" name="p1" value="1"> Generar confianza y control corporal</label><br>
+    <label><input type="radio" name="p1" value="0"> Practicar clavados</label><br><br>
 
-    <!-- PREGUNTA 2 -->
     <h4>2️⃣ ¿Qué es fundamental en la seguridad básica en piscina?</h4>
-    <label><input type="radio" name="p2"> Saltar sin supervisión</label><br>
-    <label><input type="radio" name="p2"> Seguir normas y escuchar al instructor</label><br>
-    <label><input type="radio" name="p2"> Competir con otros</label><br><br>
+    <label><input type="radio" name="p2" value="0" required> Saltar sin supervisión</label><br>
+    <label><input type="radio" name="p2" value="1"> Seguir normas y escuchar al instructor</label><br>
+    <label><input type="radio" name="p2" value="0"> Competir con otros</label><br><br>
 
-    <!-- PREGUNTA 3 -->
     <h4>3️⃣ El ejercicio “Burbuja Controlada 3x10” trabaja principalmente:</h4>
-    <label><input type="radio" name="p3"> La respiración</label><br>
-    <label><input type="radio" name="p3"> La velocidad</label><br>
-    <label><input type="radio" name="p3"> El salto ornamental</label><br><br>
+    <label><input type="radio" name="p3" value="1" required> La respiración</label><br>
+    <label><input type="radio" name="p3" value="0"> La velocidad</label><br>
+    <label><input type="radio" name="p3" value="0"> El salto ornamental</label><br><br>
 
-    <!-- PREGUNTA 4 -->
     <h4>4️⃣ ¿Qué posición corresponde a la flotación dorsal?</h4>
-    <label><input type="radio" name="p4"> Boca abajo</label><br>
-    <label><input type="radio" name="p4"> De espalda</label><br>
-    <label><input type="radio" name="p4"> Sentado</label><br><br>
+    <label><input type="radio" name="p4" value="0" required> Boca abajo</label><br>
+    <label><input type="radio" name="p4" value="1"> De espalda</label><br>
+    <label><input type="radio" name="p4" value="0"> Sentado</label><br><br>
 
-    <!-- PREGUNTA 5 -->
     <h4>5️⃣ La flotación ventral se realiza:</h4>
-    <label><input type="radio" name="p5"> De pie</label><br>
-    <label><input type="radio" name="p5"> Boca abajo</label><br>
-    <label><input type="radio" name="p5"> De espaldas</label><br><br>
+    <label><input type="radio" name="p5" value="0" required> De pie</label><br>
+    <label><input type="radio" name="p5" value="1"> Boca abajo</label><br>
+    <label><input type="radio" name="p5" value="0"> De espaldas</label><br><br>
 
-    <!-- PREGUNTA 6 -->
     <h4>6️⃣ Un error común en principiantes es:</h4>
-    <label><input type="radio" name="p6"> Relajarse en el agua</label><br>
-    <label><input type="radio" name="p6"> Tensionar el cuerpo al flotar</label><br>
-    <label><input type="radio" name="p6"> Escuchar indicaciones</label><br><br>
+    <label><input type="radio" name="p6" value="0" required> Relajarse en el agua</label><br>
+    <label><input type="radio" name="p6" value="1"> Tensionar el cuerpo al flotar</label><br>
+    <label><input type="radio" name="p6" value="0"> Escuchar indicaciones</label><br><br>
 
-    <!-- PREGUNTA 7 -->
     <h4>7️⃣ ¿Qué se trabaja en el control de aire?</h4>
-    <label><input type="radio" name="p7"> Coordinación de brazada</label><br>
-    <label><input type="radio" name="p7"> Entrada correcta al agua</label><br>
-    <label><input type="radio" name="p7"> Inhalar y exhalar correctamente</label><br><br>
+    <label><input type="radio" name="p7" value="0" required> Coordinación de brazada</label><br>
+    <label><input type="radio" name="p7" value="0"> Entrada correcta al agua</label><br>
+    <label><input type="radio" name="p7" value="1"> Inhalar y exhalar correctamente</label><br><br>
 
-    <!-- PREGUNTA 8 -->
     <h4>8️⃣ El ejercicio “Ritmo 3-3 Respiración” se enfoca en:</h4>
-    <label><input type="radio" name="p8"> Saltos largos</label><br>
-    <label><input type="radio" name="p8"> Ritmo respiratorio</label><br>
-    <label><input type="radio" name="p8"> Velocidad máxima</label><br><br>
+    <label><input type="radio" name="p8" value="0" required> Saltos largos</label><br>
+    <label><input type="radio" name="p8" value="1"> Ritmo respiratorio</label><br>
+    <label><input type="radio" name="p8" value="0"> Velocidad máxima</label><br><br>
 
-    <!-- PREGUNTA 9 -->
     <h4>9️⃣ ¿Para qué se usa la tabla en la patada inicial?</h4>
-    <label><input type="radio" name="p9"> Para flotar sin mover piernas</label><br>
-    <label><input type="radio" name="p9"> Para apoyar brazos mientras se practica la patada</label><br>
-    <label><input type="radio" name="p9"> Para competir</label><br><br>
+    <label><input type="radio" name="p9" value="0" required> Para flotar sin mover piernas</label><br>
+    <label><input type="radio" name="p9" value="1"> Para apoyar brazos mientras se practica la patada</label><br>
+    <label><input type="radio" name="p9" value="0"> Para competir</label><br><br>
 
-    <!-- PREGUNTA 10 -->
     <h4>🔟 ¿Qué significa “Patada Lineal 4x25m”?</h4>
-    <label><input type="radio" name="p10"> 4 repeticiones de 25 metros</label><br>
-    <label><input type="radio" name="p10"> 25 segundos de patada</label><br>
-    <label><input type="radio" name="p10"> 4 estilos diferentes</label><br><br>
+    <label><input type="radio" name="p10" value="1" required> 4 repeticiones de 25 metros</label><br>
+    <label><input type="radio" name="p10" value="0"> 25 segundos de patada</label><br>
+    <label><input type="radio" name="p10" value="0"> 4 estilos diferentes</label><br><br>
 
-    <button type="submit" id="quiz">Enviar respuestas</button>
+    <button type="submit">Enviar respuestas</button>
 
 </form>
 
@@ -136,35 +126,64 @@
                 <button>Volver</button>
             </a>
 
-        </section>
-
-        <section class="recursos">
+    </section>
+        <section class="recursos-quiz">
              <h2>🎉 ¡FELICIDADES! 🎉</h2>
     
-    <h3>Has completado el curso</h3>
-    
-    <h2>🟢 Nivel Principiante: <br> AquaStart 🫧🌊</h2>
-    
-    <p>
-        Hoy diste un gran paso en tu proceso dentro del medio acuático. 💙  
-        Aprendiste sobre adaptación al agua, flotación, respiración básica y patada inicial.  
-        Tu confianza y control corporal han evolucionado significativamente. 🏊‍♂️✨
-    </p>
+            <h3>Has completado el curso</h3>
+                
+            <h2>🟢 Nivel Principiante: <br> AquaStart 🫧🌊</h2>
+                
+            <p>
+                Hoy diste un gran paso en tu proceso dentro del medio acuático. 💙  
+                Aprendiste sobre adaptación al agua, flotación, respiración básica y patada inicial.  
+                Tu confianza y control corporal han evolucionado significativamente. 🏊‍♂️✨
+            </p>
 
-    <p>
-        📜 En la parte inferior de este módulo podrás encontrar tu certificado de finalización.
-        Descárgalo y celebra tu logro.
-    </p>
-        <img class="topo" id="cursos" src="../imagenes/anillo-de-goma.png" alt="flotador de unicornio">
+            <p>
+                📜 En la parte inferior de este módulo podrás encontrar tu certificado de finalización.
+                Descárgalo y celebra tu logro.
+            </p>
+            <img class="topo" id="cursos" src="../imagenes/anillo-de-goma.png" alt="flotador de unicornio">
 
-    <p class="motivacion">
-        🌊 Este es solo el comienzo… ¡Nos vemos en el siguiente nivel!
-    </p>
+            <p class="motivacion">
+                🌊 Este es solo el comienzo… ¡Nos vemos en el siguiente nivel!
+            </p>
         </section>
     </section>
     
 
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
 
+        const form = document.getElementById("quizForm");
+        const mensajeFinal = document.querySelector(".recursos-quiz");
+
+        mensajeFinal.style.display = "none";
+
+        form.addEventListener("submit", function(e) {
+            e.preventDefault();
+
+            let puntaje = 0;
+
+            const respuestas = form.querySelectorAll("input[type=radio]:checked");
+
+            respuestas.forEach(function(respuesta){
+                puntaje += parseInt(respuesta.value);
+            });
+
+            if(puntaje >= 7){ // aprueba con 7 o más
+                form.style.display = "none";
+                mensajeFinal.style.display = "block";
+                mensajeFinal.scrollIntoView({ behavior: "smooth" });
+            } else {
+                alert("Obtuviste " + puntaje + " de 10. Necesitas al menos 7 para aprobar. ¡Inténtalo nuevamente! 🌊");
+            }
+
+        });
+
+    });
+    </script>
     
 
     <footer>

@@ -725,7 +725,7 @@ nav.leyendo a{
 }
 
 /* ACOMODO RECURSOS */
-.recursos{
+.recursos {
     align-self: flex-start;
     width: 550px;
     padding: 20px 25px;
@@ -817,4 +817,37 @@ input[type="radio"] {
     color: #0b5b5b;
     font-size: 25px;
     font-weight: bold;
+}
+.recursos-quiz{
+    display: none;
+}
+
+.recursos-quiz {
+    align-self: flex-start;
+    width: 550px;
+    padding: 20px 25px;
+}
+.recursos-quiz h2{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.recursos-quiz h3{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.recursos-quiz h4{
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+.recursos-quiz p{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.recursos-quiz a{
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 10px;
 }
