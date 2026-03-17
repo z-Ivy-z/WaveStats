@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WaveStats</title>
+    <link rel="icon" type="image/png" href="../../imagenes/Logo_WaveStats-removebg-preview.png">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=DynaPuff:wght@400..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img id="logo" src="../../imagenes/Logo_WaveStats-removebg-preview.png" alt="Logo WaveStats">
+        <h1>WaveStats</h1>
+            <nav>
+                <ul>
+                    <li class="header" id="acceso"><a class="nav" class="login" href="../../paginas/acceso.html">Acceder</a></li>
+                    <li class="header"><a class="nav" href="../../paginas/comunidad.html">Comunidad</a></li>
+                    <li class="header"><a class="nav" href="../../paginas/academia.html" target="_self">Academia</a></li>
+                    <li class="header"><a class="nav" href="../../paginas/competencias.html">Competencias</a></li>
+                    <li class="header"><a class="nav" href="../../paginas/estadisticas.html">Estadísticas</a></li>
+                    <li class="header"><a class="nav" href="../../paginas/contacto.html"><img class="contacto" src="../../imagenes/circulo.png" alt="telefono"></a></li>
+                    <li class="header" id="volver"><a class="nav" href="../../Contenido Academia/AltoRendimiento.html"><img class="contacto" src="../../imagenes/devolver.png" alt="Simbolo de volver"></a></li>
+                </ul>
+            </nav>     
+    </header>
+
+    <section class="contenido-la-lectura">
+        <nav class="leyendo">
+            <ul>
+                <h5>🔹 Lección 1: Planificación Competitiva</h5>
+                <li><a href="./AR_PeriodizacionDelEntrenamiento.html" target="_self">📅 Periodización del entrenamiento</a></li>
+                <li><a href="./AR_MicrociclosYMacrociclos.html" target="_self">🔄 Microciclos y macrociclos</a></li>
+                <li><a href="./AR_ControlDeCarga.html" target="_self">📊 Control de carga</a></li>
+                <li><a href="./AR_Ejercicio1.html">🏊 Ejercicio: “Microciclo Personalizado”</a></li>
+                <hr>
+                <h5>🔹 Lección 2:  Análisis de Rendimiento</h5>               
+                <li><a href="./AR_MetricasClaveEnNatacion.html" target="_self">📈 Métricas clave en natación</a></li>
+                <li><a href="./AR_EvaluacionDeTiemposOficiales.html"target="_self">⏱️ Evaluación de tiempos oficiales</a></li>
+                <li><a href="./AR_SeguimientoEstadistico.html"target="_self">📝 Seguimiento estadístico</a></li>
+                <li><a href="./AR_Ejercicio2.html">🏊 Ejercicio: “Corrección Dirigida 100m”</a></li>
+                <hr>
+                <h5>🔹 Lección 3: Optimización Técnica</h5>              
+                <li><a href="./AR_CorreccionesAvanzadas.html" target="_self">🛠️ Correcciones avanzadas</a></li>
+                <li><a href="./AR_EficienciaPorDistancia.html" target="_self">📏 Eficiencia por distancia</a></li>
+                <li><a href="./AR_AjustesPersonalizados.html" target="_self">🎯 Ajustes personalizados</a></li>
+                <li><a href="./AR_Ejercicio3.html">🏊 Ejercicio: “Ritmo 3-3 Respiración”</a></li>
+                <hr>               
+                <h5>🔹 Lección 4:Preparación Precompetencia</h5>
+                <li><a href="./AR_DescargaFisica.html" target="_self">🌙 Descarga física</a></li>
+                <li><a href="./AR_EstrategiaMentalPrevia.html" target="_self">🧠 Estrategia mental previa</a></li>
+                <li><a href="./AR_RutinasDeActivacion.html" target="_self"> 🔥 Rutinas de activación</a></li>
+                <li><a href="./AR_Ejercicio4.html">🏊 Ejercicio: “Simulación Oficial 95%”</a></li>
+                <hr>
+                <li><a href="./AR_QuizFinal.html">📝 Quiz Final: Elite Performance Test</a></li>
+            </ul>
+        </nav>
+
+        <section class="leer">
+              <h2>🏊 Ejercicio: “Microciclo Personalizado”</h2>
+    <h3>🎯 Objetivo: Diseñar una semana de entrenamiento estructurada.</h3>
+
+    <h4>📋 Actividad:</h4>
+    <ul>
+        <li>Planificar 5 días de entrenamiento.</li>
+        <li>Incluir sesiones de técnica, resistencia y velocidad.</li>
+        <li>Agregar al menos un día de recuperación.</li>
+    </ul>
+
+    <h4>📤 Entregable:</h4>
+    <ul>
+        <li>📝 Tabla con la planificación semanal.</li>
+        <li>💬 Comentario explicando la distribución del entrenamiento.</li>
+    </ul>
+
+
+            <a href="./AR_ControlDeCarga.html">
+                <button>Volver</button>
+            </a>
+            <a href="./AR_MetricasClaveEnNatacion.html">
+                <button id="ir_modulo">Siguiente</button>
+            </a>
+
+        </section>
+
+        <section class="recursos">
+             <h2>ENTREGA AQUÍ TU EVIDENCIA 📩🌊</h2>
+            <form action="/upload" method="post" enctype="multipart/form-data">
+
+                <label for="videoFile">
+                    <h3>⏯️📺 Selecciona un video:</h3>
+                </label>
+                <input type="file" id="videoFile" name="videoFile" accept="video/*" required>
+                <button type="submit">Subir Video</button>
+                <label for="comentario">
+                    <h4>🖊️🗒️ Deja tu comentario:</h4>
+                </label>
+                 <textarea id="comentario" name="comentario" rows="6" cols="50"></textarea>
+
+                <button type="submit">Enviar</button>
+                </form>
+        </section>
+    </section>
+    
+
+    <footer>
+        <img id="logopie" src="../../imagenes/Logo_WaveStats-removebg-preview.png" alt="logo WaveStats">
+        <p id="logito">WaveStats</p>
+
+            <div id="pie">
+                <h4>Sobre nosotros</h4>
+                <p>Somos la red profesional de natación que conecta talento, entrenadores y escuelas a través de tecnología e innovación. Impulsamos el crecimiento dentro y fuera del agua. 🏊‍♂️💻</p>
+                <p>Llama al: 📞 +52 55 XXXX XXXX</p>
+            </div>
+
+            <div id="seguir">
+                <h4 id="s">SÍGUENOS</h4>
+                <a class="red" href="https://www.facebook.com/?locale=es_LA"><img class="imapie" src="../../imagenes/facebook.png" alt="facebook"></a>
+                <a class="red" href="https://www.instagram.com/"><img class="imapie" src="../../imagenes/instagram.png" alt="instagram"> </a>
+                <a class="red" href="https://web.whatsapp.com/"> <img class="imapie" src="../../imagenes/whatsapp.png" alt="whatsapp"></a>
+            </div>
+    </footer>
+</body>
+</html>

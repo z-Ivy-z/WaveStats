@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WaveStats</title>
+    <link rel="icon" type="image/png" href="../../imagenes/Logo_WaveStats-removebg-preview.png">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=DynaPuff:wght@400..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img id="logo" src="../../imagenes/Logo_WaveStats-removebg-preview.png" alt="Logo WaveStats">
+        <h1>WaveStats</h1>
+            <nav>
+                <ul>
+                    <li class="header" id="acceso"><a class="nav" class="login" href="../../paginas/acceso.html">Acceder</a></li>
+                    <li class="header"><a class="nav" href="../../paginas/comunidad.html">Comunidad</a></li>
+                    <li class="header"><a class="nav" href="../../paginas/academia.html" target="_self">Academia</a></li>
+                    <li class="header"><a class="nav" href="../../paginas/competencias.html">Competencias</a></li>
+                    <li class="header"><a class="nav" href="../../paginas/estadisticas.html">Estadísticas</a></li>
+                    <li class="header"><a class="nav" href="../../paginas/contacto.html"><img class="contacto" src="../../imagenes/circulo.png" alt="telefono"></a></li>
+                    <li class="header" id="volver"><a class="nav" href="../../Contenido Academia/TecnicaDeMariposa.html"><img class="contacto" src="../../imagenes/devolver.png" alt="Simbolo de volver"></a></li>
+                </ul>
+            </nav>     
+    </header>
+
+    <section class="contenido-la-lectura">
+        <nav class="leyendo">
+            <ul>
+                <h5>🔹 Lección 1: Fundamentos del Movimiento</h5>
+                <li><a href="./TM_CoordinacionBrazos-Patada.html" target="_self">🔄 Coordinación brazos-patada</a></li>
+                <li><a href="./TM_OndulacionCorporal.html" target="_self">🌊 Ondulación corporal</a></li>
+                <li><a href="./TM_Ejercicio1.html">🏊 Ejercicio: “Ondulación 6x25m”</a></li>
+                <hr>
+                <h5>🔹 Lección 2: Patada Delfín Potente</h5>               
+                <li><a href="./TM_TecnicaSubacuatica.html" target="_self">🐬 Técnica subacuática</a></li>
+                <li><a href="./TM_RitmoDePatada.html"target="_self">⏱️ Ritmo de patada</a></li>
+                <li><a href="./TM_Ejercicio2.html">🏊 Ejercicio: “Delfín 15m Subacuático”</a></li>
+                <hr>
+                <h5>🔹 Lección 3: Brazada Eficiente</h5>              
+                <li><a href="./TM_EntradaYAgarre.html" target="_self">✋ Entrada y agarre</a></li>
+                <li><a href="./TM_FaseAerea.html" target="_self">💪 Fase aérea</a></li>
+                <li><a href="./TM_Ejercicio3.html">🏊 Ejercicio: “Ciclo Completo 4x25m”</a></li>
+                <hr>               
+                <h5>🔹 Lección 4: Ritmo y Resistencia</h5>
+                <li><a href="./TM_ControlDeEnergia.html" target="_self">🔥 Control de energía</a></li>
+                <li><a href="./TM_SeriesEspecificasDeMaripos.html" target="_self">📈 Series específicas de mariposa</a></li>
+                <li><a href="./TM_Ejercicio4.html">🏊 Ejercicio: “Mariposa Controlada 50m”</a></li>
+                <hr>
+                <li><a href="./TM_QuizFinal.html">📝 Quiz Final: Desafío Mariposa Pro</a></li>
+            </ul>
+        </nav>
+
+        <section class="leer">
+            <h2>🏊 Ejercicio: “Mariposa Controlada 50m”</h2>
+    <h3>🎯 Objetivo: Mantener técnica de mariposa durante una distancia completa.</h3>
+
+    <h4>📋 Actividad:</h4>
+    <ul>
+        <li>Nadar 50 metros estilo mariposa.</li>
+        <li>Mantener ritmo controlado.</li>
+        <li>Enfocarse en la coordinación del movimiento.</li>
+    </ul>
+
+    <h4>📤 Entregable:</h4>
+    <ul>
+        <li>🎥 Video nadando al menos 25 metros.</li>
+        <li>📝 Comentario sobre la sensación de resistencia y control del ritmo.</li>
+    </ul>
+
+
+            <a href="TM_SeriesEspecificasDeMaripos.html">
+                <button>Volver</button>
+            </a>
+            <a href="TM_QuizFinal.html">
+                <button id="ir_modulo">Siguiente</button>
+            </a>
+
+        </section>
+
+        <section class="recursos">
+            <h2>ENTREGA AQUÍ TU EVIDENCIA 📩🌊</h2>
+            <form action="/upload" method="post" enctype="multipart/form-data">
+
+                <label for="videoFile">
+                    <h3>⏯️📺 Selecciona un video:</h3>
+                </label>
+                <input type="file" id="videoFile" name="videoFile" accept="video/*" required>
+                <button type="submit">Subir Video</button>
+                <label for="comentario">
+                    <h4>🖊️🗒️ Deja tu comentario:</h4>
+                </label>
+                 <textarea id="comentario" name="comentario" rows="6" cols="50"></textarea>
+
+                <button type="submit">Enviar</button>
+                </form>
+            
+        </section>
+    </section>
+    
+
+
+    
+
+    <footer>
+        <img id="logopie" src="../../imagenes/Logo_WaveStats-removebg-preview.png" alt="logo WaveStats">
+        <p id="logito">WaveStats</p>
+
+            <div id="pie">
+                <h4>Sobre nosotros</h4>
+                <p>Somos la red profesional de natación que conecta talento, entrenadores y escuelas a través de tecnología e innovación. Impulsamos el crecimiento dentro y fuera del agua. 🏊‍♂️💻</p>
+                <p>Llama al: 📞 +52 55 XXXX XXXX</p>
+            </div>
+
+            <div id="seguir">
+                <h4 id="s">SÍGUENOS</h4>
+                <a class="red" href="https://www.facebook.com/?locale=es_LA"><img class="imapie" src="../../imagenes/facebook.png" alt="facebook"></a>
+                <a class="red" href="https://www.instagram.com/"><img class="imapie" src="../../imagenes/instagram.png" alt="instagram"> </a>
+                <a class="red" href="https://web.whatsapp.com/"> <img class="imapie" src="../../imagenes/whatsapp.png" alt="whatsapp"></a>
+            </div>
+    </footer>
+</body>
+</html>
