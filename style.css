@@ -216,56 +216,71 @@ footer{
 }
 
 /* AQUI TERMINA LA PRIMER SECCION DEL INICIO */
-
-div#train{
-    margin: 10px;
-    background-image: url(https://img.freepik.com/vector-gratis/piscina-deportiva-vista-superior-agua-rasgada-azul_107791-2385.jpg?semt=ais_user_personalization&w=740&q=80);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 725px;
-     /* display: flex;
-    align-items: center;  */
+.train{
+    margin: 20px 0%;
+     background-color: #ffecf9;
+    width: 95%;
 }
-#content{
-    display: flex;
-}
-
-
-#sing{
-    margin: 0px;
-    padding: 55px;
-    -webkit-text-stroke: 0.5px #fff;
-    text-decoration: solid;
-    color: #000000;
-    text-align: center;
+.train h2{
+    
     font-family: sans-serif;
-    font-size: 60px;
+    font-size: 40px;
+    padding: 25px 0px 10px 0px;
+    margin: 0px;
+    text-align: center;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+   
 }
 .mensaje{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+     overflow: hidden;
+     background-color: #fff;
+    border: 5px #FF5DA2 solid;
+    border-radius: 15px;
+    flex: 1 1 400px;
+    max-width: 400px;
+    margin: 2%;
+}
+.mensaje h3{
     text-align: center;
-    margin: auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 20px;
-    width: 400px;
-    
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #9c106d;
+}
+.mensaje p{
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 1% 5%;
+}
+.mensaje ul{
+    font-family: sans-serif;
+    font-size: 16px;
 }
 .ir{
+    display: flex;
+    align-self: center;
+    
+    
     background-color: #E6E6FA;
     border-radius: 7px;
     padding: 10px;
     border: none;
     font-size: 20px;
+    margin: 2%;
 }
 
 .ir:hover{
     background-color: #b1b1ef;
     cursor: pointer;
-}
-
-.re{
-    font-family: sans-serif;
-    font-size: 18px;
 }
 
 .h3{
